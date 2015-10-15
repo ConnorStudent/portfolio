@@ -1,3 +1,8 @@
+/*  index.js
+    Connor Hall
+    portfolio.azurewebsites.net
+    index all the router.gets
+    */
 var express = require('express');
 var router = express.Router();
 
@@ -35,6 +40,11 @@ router.get('/safety', function(req, res, next) {
 /* GET Volunteer Expierence page */
 router.get('/volunteerexpierence', function(req, res, next) {
    res.render('volunteerexpierence'); 
+});
+
+/* GET Contact page */
+router.get('/contact', function(req, res, next) {
+   res.render('contact'); 
 });
 
 module.exports = router;

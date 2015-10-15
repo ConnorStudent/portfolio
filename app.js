@@ -1,3 +1,8 @@
+/*      app.js
+        Connor Hall
+        portfolio.azurewebsites.net
+        The page for requires and what to do at certain functions such as error
+*/
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');

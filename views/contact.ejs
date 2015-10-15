@@ -1,9 +1,10 @@
-<!--    header.ejs
+<!--    contact.ejs
         Connor Hall
         portfolio.azurewebsites.net
-        The header for every page
+        How to contact me
     -->
 <!DOCTYPE html>
+<!-- Instead of calling the header here i readded it and gave the first body tag a different colour attribute -->
 <html>
   <head>
     <title>Lesson 4</title>
@@ -19,11 +20,9 @@
       <!-- Latest compiled and minified   JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
   </head>
-    <!-- made the body blue cause it looks nice with the navbar -->
-  <body class="bg-info" >
-      <!-- This is the navbar class to look black and sleek and go all the way across the screen -->
+  <body class="bg-danger">
+      
       <nav class="navbar-inverse">
-          <!-- unordered list put in tabs so nicely spaced and the list items of the ejs's -->
         <ul class="nav nav-tabs">
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
@@ -35,3 +34,14 @@
             <li><a href="/contact">Contact</a></li>
           </ul>
       </nav>
+
+<h1>Contact</h1>
+<!-- classed to pop out more -->
+<ul class="lead">
+    <li>Email: connor_d_hall@hotmail.com</li>
+    <li>Cell Phone: 905-806-6419</li>
+    <li>Home Phone: 905-775-0316</li>
+</ul>
+    
+</body>
+<%- include partials/footer.ejs %>

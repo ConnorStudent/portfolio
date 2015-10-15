@@ -1,3 +1,4 @@
+/* I actually tried to remove the user.js and everything for it and it broke everything so i decided to leave it. ya i dont know what happened */
 var express = require('express');
 var router = express.Router();
 
